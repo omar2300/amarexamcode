@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif !important;
+  background-color: #f3f7f4;
+}
+
+.custom-navbar {
+  background-color: #99aa9c;
+  max-width: 1440px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 64px;
+}
+
+.logo img {
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.nav_links {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav_item {
+  display: flex;
+  align-items: center;
+}
+
+.nav_links a {
+  top: 8px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  line-height: 78px;
+}
+
+.nav_links a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0;
+  background: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.nav_links a:hover::after,
+.nav_links a:focus::after {
+  width: 100%;
+  opacity: 1;
+}
+
+/* landingpage overfolden */
+
+.landingpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lpcontainer {
+  position: relative;
+}
+
+.Herotitle {
+  position: absolute;
+  top: 620px;
+  left: 710px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 64px;
+  text-align: center;
+}
+
+.subherotitle {
+  position: absolute;
+  top: 702px;
+  left: 705px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  width: 331px;
+  text-align: center;
+}
+
+.lpbutton {
+  background-color: #99aa9c;
+  position: absolute;
+  top: 755px;
+  left: 656px;
+  color: white;
+  width: 95px;
+  height: 27px;
+  border: none;
+}
+
+.oshvadvitilbyder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b6a5e;
+  font-size: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+/* CTA sektion */
+
+#CTA1 {
+  margin-top: px;
+}
+
+.CTA1_container,
+.CTA2_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 120px;
+}
+
+.Popups_container,
+.virksomheder_container,
+.genbrugsdiamanter_container,
+.Labsten_container {
+  position: relative;
+  width: 50%;
+}
+
+.Popups_container img,
+.virksomheder_container img,
+.genbrugsdiamanter_container img,
+.Labsten_container img {
+  width: 100%;
+  height: 494px;
+}
+
+.rektangel,
+.rektangel1,
+.rektangel3,
+.rektangel4 {
+  background-color: #99aa9c;
+  width: 99.6%;
+  height: 145px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.91;
+}
+
+.Popups_container p,
+.virksomheder_container p,
+.genbrugsdiamanter_container p,
+.Labsten_container p {
+  position: absolute;
+  font-size: 20px;
+  width: 80%;
+  color: white;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+}
+
+.ctabutton1,
+.ctabutton2,
+.ctabutton3,
+.ctabutton4 {
+  background-color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 80%;
+  transform: translateX(-50%);
+  color: #5b6a5e;
+  width: 95px;
+  height: 27px;
+  border: none;
+}
+
+/* icon sektion */
+
+.icon_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 137px;
+}
+
+.icon1 img {
+  margin-left: 285px;
+}
+
+.icon2 img {
+  margin-left: 130px;
+}
+
+.icon3 img {
+  margin-left: 110px;
+}
+
+.icon_container p {
+  font-size: 20px;
+  text-align: center;
+  width: 430px;
+  color: #5b6a5e;
+  margin-top: 30px;
+}
+
+.icon1 p {
+  margin-left: 170px;
+}
+
+.icon2 p {
+  margin-left: 10px;
+}
+
+.icon3 p {
+  margin-right: 140px;
+}
+/* om os sektion */
+
+#overskrift_omos h1 {
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  transform: translate(0%, 50%);
+  background-color: #99aa9c;
+  height: 204px;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hvem er vi?  sektion */
+
+.omos1_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 120px;
+}
